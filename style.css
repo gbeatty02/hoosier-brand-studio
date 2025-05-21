@@ -1,0 +1,89 @@
+body {
+  margin: 0;
+  font-family: 'Montserrat', sans-serif;
+  background: #fdfdfd;
+  color: #222;
+  line-height: 1.6;
+}
+
+header.hero {
+  text-align: center;
+  padding: 60px 20px 40px;
+  background: #fff9e3;
+}
+
+.logo {
+  max-width: 200px;
+  margin-bottom: 20px;
+}
+
+.hero h1 {
+  font-family: 'Roboto Slab', serif;
+  font-size: 2rem;
+  margin-bottom: 10px;
+}
+
+.hero p {
+  font-size: 1rem;
+  color: #444;
+}
+
+section {
+  padding: 60px 20px;
+  max-width: 900px;
+  margin: auto;
+}
+
+h2 {
+  text-align: center;
+  font-size: 1.8rem;
+  margin-bottom: 20px;
+}
+
+.about p,
+.contact p {
+  text-align: center;
+  max-width: 700px;
+  margin: auto;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+  gap: 20px;
+}
+
+.item {
+  background: #eee;
+  height: 180px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: 600;
+}
+
+.services ul {
+  list-style: none;
+  padding: 0;
+  text-align: center;
+}
+
+.services li {
+  padding: 8px 0;
+}
+
+.email-link {
+  display: inline-block;
+  margin-top: 10px;
+  font-weight: 600;
+  color: #000;
+  text-decoration: underline;
+}
+
+footer {
+  text-align: center;
+  padding: 30px 20px;
+  font-size: 0.9rem;
+  color: #777;
+  background: #fafafa;
+}
